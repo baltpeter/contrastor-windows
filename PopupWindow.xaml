@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Contrastor"
         mc:Ignorable="d"
-        Title="Contrastor" ShowInTaskbar="false" SizeToContent="WidthAndHeight" ResizeMode="NoResize" WindowStyle="None" MouseDown="Window_MouseDown" Topmost="True">
+        Title="Contrastor" ShowInTaskbar="false" SizeToContent="WidthAndHeight" ResizeMode="NoResize" WindowStyle="None" MouseDown="Window_MouseDown" Topmost="True" Closing="Window_Closing">
     <Grid>
         <local:PopupControl />
     </Grid>

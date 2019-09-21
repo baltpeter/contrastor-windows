@@ -68,5 +68,12 @@ namespace Contrastor
             // Make the window movable, see: https://stackoverflow.com/a/7418629
             if (e.ChangedButton == MouseButton.Left) this.DragMove();
         }
+
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            notifyIcon.Icon.Dispose();
+            notifyIcon.Dispose();
+            notifyIcon = null;
+        }
     }
 }
