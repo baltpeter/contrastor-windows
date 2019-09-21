@@ -7,6 +7,6 @@
         mc:Ignorable="d"
         Title="Contrastor" ShowInTaskbar="false" SizeToContent="WidthAndHeight" ResizeMode="NoResize" WindowStyle="None" MouseDown="Window_MouseDown" Topmost="True" Closing="Window_Closing">
     <Grid>
-        <local:PopupControl />
+        <local:PopupControl x:Name="popupControl" />
     </Grid>
 </Window>
