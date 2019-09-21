@@ -28,17 +28,17 @@
                 <RowDefinition Height="10" />
             </Grid.RowDefinitions>
 
-            <TextBlock x:Name="firstPound" Grid.Column="1" Grid.Row="1" Grid.RowSpan="2" Text="#" HorizontalAlignment="Stretch" VerticalAlignment="Center" FontSize="16" Margin="0,0,3,0" />
-            <TextBlock x:Name="secondPound" Grid.Column="1" Grid.Row="3" Grid.RowSpan="2" Text="#" HorizontalAlignment="Stretch" VerticalAlignment="Center" FontSize="16" Margin="0,0,3,0" />
+            <TextBlock x:Name="firstPound" Grid.Column="1" Grid.Row="1" Grid.RowSpan="2" Text="#" HorizontalAlignment="Stretch" VerticalAlignment="Center" FontSize="18" Margin="0,0,3,0" FontFamily="Consolas" />
+            <TextBlock x:Name="secondPound" Grid.Column="1" Grid.Row="3" Grid.RowSpan="2" Text="#" HorizontalAlignment="Stretch" VerticalAlignment="Center" FontSize="18" Margin="0,0,3,0" FontFamily="Consolas" />
 
-            <TextBox x:Name="firstColorInput" Grid.Column="2" Grid.Row="1" Grid.RowSpan="2" TextAlignment="Center" Height="20" Margin="0,0,7,0" Padding="0,1,0,0" Text="000000" LostFocus="Update" />
-            <TextBox x:Name="secondColorInput" Grid.Column="2" Grid.Row="3" Grid.RowSpan="2" TextAlignment="Center" Height="20" Margin="0,0,7,0" Padding="0,1,0,0" Text="FFFFFF" LostFocus="Update" />
+            <TextBox x:Name="firstColorInput" Grid.Column="2" Grid.Row="1" Grid.RowSpan="2" TextAlignment="Center" Height="20" Margin="0,0,7,0" Padding="0,1,0,0" Text="000000" LostFocus="Update" FontFamily="Consolas" FontSize="14" />
+            <TextBox x:Name="secondColorInput" Grid.Column="2" Grid.Row="3" Grid.RowSpan="2" TextAlignment="Center" Height="20" Margin="0,0,7,0" Padding="0,1,0,0" Text="FFFFFF" LostFocus="Update" FontSize="14" FontFamily="Consolas" />
 
             <cp:EyeDropper x:Name="firstEyeDropper" Grid.Column="3" Grid.Row="1" Grid.RowSpan="2" Width="20" Height="20" SelectedColor="{Binding FirstColor, Mode=OneWayToSource}" />
             <cp:EyeDropper x:Name="secondEyeDropper" Grid.Column="3" Grid.Row="3" Grid.RowSpan="2" Width="20" Height="20" SelectedColor="{Binding SecondColor, Mode=OneWayToSource}" />
 
-            <TextBlock x:Name="ratioLabel" Grid.Column="4" Grid.Row="2" TextAlignment="Center" Width="50" />
-            <TextBlock x:Name="ratingLabel" Grid.Column="4" Grid.Row="3" TextAlignment="Center" Width="50" />
+            <TextBlock x:Name="ratioLabel" Grid.Column="4" Grid.Row="2" TextAlignment="Right" Width="35" />
+            <TextBlock x:Name="ratingLabel" Grid.Column="4" Grid.Row="3" TextAlignment="Right" Width="35" />
         </Grid>
     </Border>
 </UserControl>
