@@ -2,7 +2,7 @@
 
 > A simple color contrast ratio checker that lives in your Windows system tray.
 
-![Using Contrastor to verify the color contrast ratios of a design.](https://cdn.baltpeter.io/img/contrastor-windows-demo.gif)
+![Using Contrastor to verify the color contrast ratios of a design.](https://static.bn.al/img/contrastor-windows-demo.gif)
 
 Checking color contrast ratios is an integral part of making sure your designs are accessible. The WCAG defines a number of [contrast levels](https://www.w3.org/TR/WCAG20-TECHS/G18.html) between two colors that tell you how easy it is to read the text when one of the colors is the foreground and the other the background color.  
 While there are plenty of online tools available that let you enter the color codes and spit out the contrast ratio, Contrastor aims to make this process even easier. It lives right in your Windows system tray. After opening it, you can simply pick the foreground and background color from your screen using the eyedroppers. It will instantly tell you the contrast ratio. No nonsense, just a straightforward answer to the question "Do these two colors work together?"
